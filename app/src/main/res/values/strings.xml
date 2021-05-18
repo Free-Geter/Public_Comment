@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Public_Comment</string>
+    <string name="welcome_guide_btn_text">点击立即进入</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

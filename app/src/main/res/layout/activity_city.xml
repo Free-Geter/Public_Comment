@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nromal_bg_color"
+    tools:context=".CityActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/index_city_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/normal_orange_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/index_city_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/index_city_back"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="选择城市"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/index_city_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/index_city_refresh"
+            android:paddingRight="5dp"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ListView_City"
+        android:layout_below="@id/index_city_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="3dp" />
+
+
+
+</RelativeLayout>
